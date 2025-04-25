@@ -166,7 +166,7 @@ body.dark-mode #toggle-theme {
 }
 
 body.clear-sky {
-    background-image: url('images/clear.jpg');
+    background-image: url('clear.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -174,7 +174,7 @@ body.clear-sky {
 }
 
 body.cloudy {
-    background-image: url('images/cloudy-sky-from-above.jpg');
+    background-image: url('cloudy-sky-from-above.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -182,7 +182,7 @@ body.cloudy {
 }
 
 body.rainy {
-    background-image: url('images/rainy.jpg');
+    background-image: url('rainy.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -190,7 +190,7 @@ body.rainy {
 }
 
 body.snowy {
-    background-image: url('images/snow.jpg');
+    background-image: url('snow.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
