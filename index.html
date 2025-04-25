@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <button id="toggle-theme" class="theme-button"></button>
+    <div class="container">
+        <h1>Weather teller</h1>
+        <div class="search-box">
+          <input type="text" id="city-input" placeholder="Enter city name" />
+          <select id="unit-select">
+            <option value="metric">°C</option>
+            <option value="imperial">°F</option>
+          </select>
+          <button id="search-btn">Search</button>
+        </div>
+      
+        <div class="error-message"></div>
+        <div class="loading">Loading...</div>
+      
+        
+        
+      
+        <div class="weather-card" style="display: none;">
+          <div class="weather-info">
+            <h2 id="city-name">City Name</h2>
+            <img id="weather-icon"  alt="Weather Icon">
+            <p id="temperature">--°</p>
+            <p id="description">Description</p>
+          </div>
+      
+          <div class="show-time" id="show-time">Show Local Time</div>
+      
+          <div id="time-box" class="time-card" style="display: none;">
+            <div><strong>Local Time:</strong> <span id="local-time"></span></div>
+            <div><strong>Date:</strong> <span id="local-date"></span></div>
+          </div>
+        </div>
+      </div>
+      
+  <script src="script.js"></script>
+</body>
+</html>
